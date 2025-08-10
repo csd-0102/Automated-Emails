@@ -24,7 +24,7 @@ email_domain_match = re.search(r"@(.+)", SENDER_EMAIL)
 email_domain = email_domain_match.group(1) if email_domain_match else "example.com"
 
 # Load Excel with sheet names
-excel_path = "imap_email_contacts_saketh.xlsx"
+excel_path = "emails_validatedd.xlsx"
 xls = pd.read_excel(excel_path, sheet_name=None)
 
 # Get pending and sent contacts
