@@ -1,0 +1,7 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "sender_email": "csaideejobs@gmail.com",
+  "sender_password": "lahnyxmcmnujysbc",
+  "subject": "Data Engineer, Data Analyst | Available for Immediate Opportunity"
+}

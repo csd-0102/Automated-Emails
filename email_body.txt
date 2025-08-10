@@ -1,0 +1,9 @@
+Hi {full_name},
+
+My name is Sai Deekshith Chinthalwar, and I am currently working as a Data Analyst at Regeneron Pharmaceuticals. I bring over 4 years of experience in software development and data engineering, with a strong foundation in designing data pipelines, developing cloud-based analytics solutions, and supporting real-time decision-making systems.
+
+I am skilled in Python, R, SQL, Azure, AWS, Kafka, Power BI, and Tableau, and have hands-on experience with building REST APIs, microservices, batch jobs, and deploying applications using Docker and Kubernetes. At Regeneron and in previous roles, I have contributed to high-impact projects across healthcare, education, and retail domains—delivering optimized ETL workflows, real-time inventory systems, and actionable dashboards that improved both operational efficiency and business outcomes.
+
+I am currently exploring new opportunities where I can grow as a Data Engineer, Data Analyst, or Business Analyst, collaborate with a strong team, and contribute meaningfully to data-driven initiatives. I am open to relocation and flexible with work locations to better align with team and project needs.
+
+Please find my resume attached for your consideration. I would be happy to connect and discuss any relevant opportunities.
