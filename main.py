@@ -32,8 +32,8 @@ pending_df = xls.get("Pending", pd.DataFrame())
 sent_df = xls.get("Sent", pd.DataFrame())
 
 # Process only the first 100
-to_send = pending_df.head(50)
-remaining = pending_df.iloc[50:]
+to_send = pending_df.head(100)
+remaining = pending_df.iloc[100:]
 
 # Load email body
 with open("email_body.txt", "r") as f:
