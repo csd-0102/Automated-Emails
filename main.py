@@ -24,16 +24,16 @@ email_domain_match = re.search(r"@(.+)", SENDER_EMAIL)
 email_domain = email_domain_match.group(1) if email_domain_match else "example.com"
 
 # Load Excel with sheet names
-excel_path = "emails_validatedd.xlsx"
+excel_path = "Vendors - Copy.xlsx"
 xls = pd.read_excel(excel_path, sheet_name=None)
 
 # Get pending and sent contacts
 pending_df = xls.get("Pending", pd.DataFrame())
 sent_df = xls.get("Sent", pd.DataFrame())
 
-# Process only the first 50
-to_send = pending_df.head(10)
-remaining = pending_df.iloc[10:]
+# Process only the first 100
+to_send = pending_df.head(50)
+remaining = pending_df.iloc[50:]
 
 # Load email body
 with open("email_body.txt", "r") as f:
